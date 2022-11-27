@@ -1,3 +1,4 @@
+import NotificationButton from '../NotificationButton';
 import './style.css';
 const SalesCard = () => {
     return (
@@ -35,9 +36,7 @@ const SalesCard = () => {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
-                                    <div className="dsmeta-red-btn">
-                                        <img src="notification-icon.svg" alt="Notificar" />
-                                    </div>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -50,9 +49,7 @@ const SalesCard = () => {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
-                                    <div className="dsmeta-red-btn">
-                                        <img src="notification-icon.svg" alt="Notificar" />
-                                    </div>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -65,9 +62,7 @@ const SalesCard = () => {
                             <td>R$ 55300.00</td>
                             <td>
                                 <div className="dsmeta-red-btn-container">
-                                    <div className="dsmeta-red-btn">
-                                        <img src="notification-icon.svg" alt="Notificar" />
-                                    </div>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
